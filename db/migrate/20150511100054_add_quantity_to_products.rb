@@ -7,3 +7,4 @@ class AddQuantityToProducts < ActiveRecord::Migration
 	remove_column :products ,:quantity
 	add_column :products ,:quntity ,:integer
  end
+end
