@@ -1,3 +1,4 @@
+
 class CreateProducts < ActiveRecord::Migration
   def change
     create_table :products do |t|
@@ -6,8 +7,8 @@ class CreateProducts < ActiveRecord::Migration
       t.integer :price
       t.integer :vat
       t.float :total_price
-      t.integer :product_id
-
+      t.integer :pid
+       t.integer :quantity
       t.timestamps
     end
   end
