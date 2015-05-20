@@ -1,0 +1,9 @@
+1) Learn about the Callbacks & Filters in rails and practice it.
+
+2) Practice on Helpers - Date & Time , Form Helpers
+
+3) Learn about sending email in Rails
+-  Send Email to user from Rails app with the attachment included in email template.
+    (You can continue implementing this in Assignment 2# app when a product is created)
+
+4) Create Rails v4 app with Products CRUD . And list out the differences between Rails 3 & Rails 4
