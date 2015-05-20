@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150512065841) do
+ActiveRecord::Schema.define(:version => 20150520052247) do
 
   create_table "products", :force => true do |t|
     t.string   "title"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(:version => 20150512065841) do
     t.string   "secnum"
     t.string   "pid"
     t.float    "total_price"
+    t.integer  "quntity"
   end
 
 end

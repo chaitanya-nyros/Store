@@ -4,7 +4,6 @@ class CreateProducts < ActiveRecord::Migration
 	  t.string :title
       t.text :description
       t.integer :price
-      
       t.integer :vat
       t.float :total_price
       t.integer :product_id
