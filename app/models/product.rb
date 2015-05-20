@@ -1,5 +1,5 @@
 class Product < ActiveRecord::Base
-  attr_accessible :title, :description, :price, :quantity, :vat, :total_price, :pid
+  attr_accessible :title, :description, :price, :quantity, :quntity, :vat, :total_price, :pid
   validates :title, :presence => 'true'
   validates :price, :presence => 'true' , :numericality => {:only_integer => true}
   validates :quantity, :presence => 'true', :numericality => {:only_integer => true}
